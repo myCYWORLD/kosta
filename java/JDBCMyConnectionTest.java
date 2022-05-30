@@ -19,13 +19,12 @@ public class JDBCMyConnectionTest {
 		
 		//4.SQL문 송신(SELECT,        INSERT/UPDATE/DELETE, CREATE/ALTER/DROP)
 		Statement stmt = null;
-		//			(executeQuery(),        executeUpdate()
+		//			(executeQuery(),  executeUpdate()
 		//5.결과 수신 (행들,                   처리건수,                 0       ) 
-		//          (ResultSet                  int                    )
+		//          (ResultSet             int  ,                          )
 		//ex ResultSet rs = stmt.executeQuery("SELECT~");  //반환값이 행들
 		//   int rowcnt =   stmt.executeUpdate("INSERT~"); //반환값이 처리건수
 		//   int rowcnt =   stmt.executeUpdate("CREATE~"); //반환값이 무조건 0
-
 		ResultSet rs = null;
 		try {
 			stmt = con.createStatement();
