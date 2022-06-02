@@ -1,0 +1,49 @@
+@charset "UTF-8";
+#id_label {
+	padding-bottom:20px;
+}
+
+#id_label>label {
+	margin-right:30px;
+}
+#pwd_label {
+	padding-bottom:30px;
+	display:block;
+}
+#pwd_label>label {
+	margin-right: 50px;
+	
+}	
+.buttons {
+	background-color:#3fa63f;
+	border:none;
+	color:white;
+	padding:15px;
+	margin:5px;
+	width:80px;
+	border-radius:7%;
+    text-align:center;
+    display: inline-block;
+    font-size: 13px;
+    display:inline-block;
+    cursor: pointer;
+    }
+.d1{
+	background-color:lightgray;
+	padding:40px;
+	margin:10px;
+	width:400px;
+	display:block;
+}
+
+
+
+.tb_addr{
+	width: 100%;
+	margin-top:5px;
+  	border: 0.5px solid #000000;
+ 	border-collapse: collapse;
+}
+td{
+	border:0.5px solid #000000;
+}
